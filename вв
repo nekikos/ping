@@ -79,7 +79,7 @@ while game:
 
         if ball.rect.x > win_width:
             finish = True
-            window.blit(lose1,(200,200))
+            window.blit(lose2,(200,200))
             game_over = True 
 
         rock1.reset()
